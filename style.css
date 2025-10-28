@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+
+.title_box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  color: #4d4f62;
+  margin: 20px;
+  font-family: Poppins;
+  font-weight: 275;
+  font-size: 36px;
+}
+.title2 {
+  margin: -12px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: #4d4f62;
+
+  text-align: center;
+}
+.text {
+  margin: 30px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #4d4f62;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+.card_title {
+  margin: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  color: #4d4f62;
+}
+
+.card_text {
+  opacity: 50%;
+  margin: 20px;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 13px;
+  color: #4d4f62;
+}
+.card_supervisor {
+  position: relative;
+  margin-top: 140px;
+  height: 250px;
+  width: 350px;
+  border-top: 4px solid #44d3d2;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+.card_team-builder {
+  position: relative;
+  height: 250px;
+  width: 350px;
+  border-top: 4px solid #ea5454;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+
+.card_calculator {
+  position: relative;
+  margin-top: 140px;
+  height: 250px;
+  width: 350px;
+  border-top: 4px solid #549ef2;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+.card_karma {
+  position: relative;
+  margin-top: -90px;
+  height: 250px;
+  width: 350px;
+  border-top: 4px solid #fcae4a;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+
+.image {
+  position: absolute;
+  top: 154px;
+  left: 254px;
+}
+
+.image2 {
+  position: absolute;
+  top: 154px;
+  left: 254px;
+}
+
+.image3 {
+  position: absolute;
+  top: 154px;
+  left: 254px;
+}
+
+.image4 {
+  position: absolute;
+  top: 154px;
+  left: 254px;
+}
