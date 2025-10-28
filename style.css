@@ -64,19 +64,34 @@ body {
   margin-top: 140px;
   height: 250px;
   width: 350px;
-  border-top: 4px solid #44d3d2;
+
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+
+.card_supervisor::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: #44d3d2;
 }
 .card_team-builder {
   position: relative;
   height: 250px;
   width: 350px;
-  border-top: 4px solid #ea5454;
+
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+.card_team-builder::before {
+  background-color: #ea5454;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
 }
 
 .card_calculator {
@@ -84,20 +99,34 @@ body {
   margin-top: 140px;
   height: 250px;
   width: 350px;
-  border-top: 4px solid #549ef2;
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+
+.card_calculator::before {
+  background-color: #549ef2;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
 }
 .card_karma {
   position: relative;
   margin-top: -90px;
   height: 250px;
   width: 350px;
-  border-top: 4px solid #fcae4a;
+
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0px 15px 30px -11px #83a6d280;
+}
+.card_karma::before {
+  background-color: #fcae4a;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
 }
 
 .image {
